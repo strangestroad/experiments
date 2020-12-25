@@ -103,11 +103,11 @@ body{
 }
 
 .back{
-    background-color: rgba(21, 238, 245, 0.204);
-    transform: rotateY(180deg);
+    background-color: rgba(21, 238, 245, 0.264);
+    transform: rotateY(90deg);
 }
 .front{
-    background-color: rgba(70, 71, 73, 0.892);
+    background-color: rgba(13, 16, 17, 0.952);
 }
 .b:hover .flip{
     transform: rotateY(180deg);
