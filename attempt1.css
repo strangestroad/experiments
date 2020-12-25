@@ -1,0 +1,150 @@
+body{
+    text-align: center;
+    background-image: url("img.jpeg");
+    height: 100%;
+
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-decoration: dashed;
+    text-shadow: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.a{
+    
+    text-align: center;
+    float: left;
+    width: 33.33%;
+    height: 33.33%;
+    perspective: 1000px;
+}
+.b{
+    
+    text-align: center;
+    float: right;
+    width: 33.33%;
+    height: 33.33%;
+    perspective: 1000px;
+}
+.c{
+    
+    text-align: center;
+    float: left;
+    width: 33.33%;
+    height: 33.33%;
+    perspective: 1000px;
+}
+.d{
+    
+    text-align: center;
+    float: left;
+    width: 33.33%;
+    height: 33.33%;
+    perspective: 1000px;
+}
+.e{
+    
+    text-align: center;
+    float: left;
+    width: 33.33%;
+    height: 33.33%;
+    perspective: 1000px;
+}
+.f{
+    
+    text-align: center;
+    float: left;
+    width: 33.33%;
+    height: 33.33%;
+    perspective: 1000px;
+}
+.g{
+    
+    text-align: center;
+    float: left;
+    width: 33.33%;
+    height: 33.33%;
+    perspective: 1000px;
+}
+.h{
+    
+    text-align: center;
+    float: left;
+    width: 33.33%;
+    height: 33.33%;
+    perspective: 1000px;
+}
+.i{
+    
+    text-align: center;
+    float: left;
+    width: 33.33%;
+    height: 33.33%;
+    perspective: 1000px;
+}
+.flip{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    transition: transform 1.8s;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+}
+.a:hover .flip{
+    transform: rotateY(180deg);
+}
+.front, .back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.back{
+    background-color: rgba(21, 238, 245, 0.264);
+    transform: rotateY(90deg);
+    
+}
+.front{
+    background-color: rgba(13, 16, 17, 0.952);
+}
+.b:hover .flip{
+    transform: rotateY(180deg);
+}
+.c:hover .flip{
+    transform: rotateY(180deg);
+}
+.d:hover .flip{
+    transform: rotateY(180deg);
+}
+.e:hover .flip{
+    transform: rotateY(180deg);
+}
+.f:hover .flip{
+    transform: rotateY(180deg);
+}
+.g:hover .flip{
+    transform: rotateY(180deg);
+}
+.h:hover .flip{
+    transform: rotateY(180deg);
+}
+.i:hover .flip{
+    transform: rotateY(180deg);
+}
+.hoverfixed .back{
+    -webkit-transform: rotateY(0deg) !important;
+    -moz-transform: rotateY(0deg) !important;
+    -o-transform: rotateY(0deg) !important;
+    -ms-transform: rotateY(0deg) !important;
+    transform: rotateY(0deg) !important;
+    }
+    
+.hoverfixed  .front{
+    -webkit-transform: rotateY(180deg) !important;
+    -moz-transform: rotateY(180deg) !important;
+    -o-transform: rotateY(180deg) !important;
+    transform: rotateY(180deg) !important;
+    }
