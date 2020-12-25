@@ -103,7 +103,7 @@ body{
 }
 
 .back{
-    background-color: rgba(21, 237, 245,0.01);
+    background-color: rgba(21, 238, 245, 0.164);
     transform: rotateY(180deg);
 }
 .front{
