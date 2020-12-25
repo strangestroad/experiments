@@ -96,7 +96,7 @@
 }
 
 .back{
-    background-color: rgba(21, 237, 245,0);
+    background-color: rgba(21, 237, 245,0.01);
     transform: rotateY(180deg);
 }
 .front{
