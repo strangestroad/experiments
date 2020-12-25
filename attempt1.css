@@ -1,6 +1,13 @@
-.body{
+body{
     text-align: center;
     background-image: url("img.jpeg");
+    height: 100%;
+
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
     text-decoration: dashed;
     text-shadow: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -100,7 +107,7 @@
     transform: rotateY(180deg);
 }
 .front{
-    background-color: rgba(70, 71, 73, 0.582);
+    background-color: rgba(70, 71, 73, 0.782);
 }
 .b:hover .flip{
     transform: rotateY(180deg);
