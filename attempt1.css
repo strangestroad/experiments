@@ -107,7 +107,7 @@ body{
     transform: rotateY(180deg);
 }
 .front{
-    background-color: rgba(70, 71, 73, 0.852);
+    background-color: rgba(70, 71, 73, 0.892);
 }
 .b:hover .flip{
     transform: rotateY(180deg);
